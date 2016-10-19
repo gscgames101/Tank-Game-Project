@@ -30,7 +30,7 @@ shoot = 0;
 reload = 5;
 up = 0;
 bulletspeed = 70;
-length = 64;
+length = 10;
 image_speed=0
 
 creator = instance_nearest(x,y,obj__Tank_Body).id;
@@ -80,7 +80,7 @@ if shoot==1
     sprite_index = spr_lowcal_fire
     shoot = 0
     up = 0
-        bullet=instance_create(x+lengthdir_x(length,image_angle), y+lengthdir_y(length,image_angle), obj_50)
+        bullet=instance_create(x+lengthdir_x(length,image_angle)+lengthdir_x(30,image_angle+90), y+lengthdir_y(length,image_angle)+lengthdir_y(30,image_angle+90), obj_50)
         bullet.direction=image_angle;
         bullet.speed=bulletspeed;
         bullet.image_angle=bullet.direction;
