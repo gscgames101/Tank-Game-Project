@@ -34,7 +34,7 @@ dtp = 10000
 xpp = x+1;
 ypp = y;
 vr = 350;
-rs = 2;
+rs = 10;
 bulletspeed = 25;
 length = 23;
 up = 0
@@ -158,8 +158,12 @@ if allow = 1
     
  } 
 //Turret local
-x=creator.x;
-y=creator.y;
+if instance_exists (creator)
+{
+    x=creator.x;
+    y=creator.y;
+}
+
 </string>
           </argument>
         </arguments>

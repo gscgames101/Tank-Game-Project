@@ -27,9 +27,14 @@
     </sprites>
     <sprite>sprites\spr_50</sprite>
     <sprite>sprites\spr_rocketL</sprite>
+    <sprite>sprites\spr_fortress</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_enemy_static.gml</script>
+    <script>scripts\scr_enemy_follow.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_wall</object>
     <objects name="Player Tank">
@@ -39,14 +44,17 @@
     </objects>
     <object>objects\obj_bullet</object>
     <object>objects\obj_50</object>
-    <objects name="Enemy">
-      <object>objects\obj_ebody</object>
-      <object>objects\obj_eturret</object>
-    </objects>
+    <object>objects\obj_enemy50</object>
     <object>objects\obj_solid</object>
     <object>objects\obj_explosion</object>
-    <object>objects\obj_aitest</object>
-    <object>objects\obj_aiturret</object>
+    <objects name="Enemy">
+      <object>objects\obj_aiturret</object>
+      <object>objects\obj_aitest</object>
+    </objects>
+    <objects name="Fortress">
+      <object>objects\obj_fortress</object>
+      <object>objects\obj_turret_fortress</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
