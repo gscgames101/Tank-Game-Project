@@ -43,6 +43,7 @@
       <object>objects\obj_lowcal</object>
     </objects>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_bulletEnemy</object>
     <object>objects\obj_50</object>
     <object>objects\obj_enemy50</object>
     <object>objects\obj_solid</object>

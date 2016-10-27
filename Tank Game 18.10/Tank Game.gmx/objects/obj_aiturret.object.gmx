@@ -38,7 +38,7 @@ rs = 10;
 bulletspeed = 25;
 length = 23;
 up = 0
-reload = 15;
+reload = 25;
 active = false;
 
 
@@ -145,7 +145,7 @@ if allow = 1
                     shoot=0
                     up=0
                 
-                    bullet=instance_create(x+lengthdir_x(length,image_angle), y+lengthdir_y(length,image_angle), obj_bullet)               
+                    bullet=instance_create(x+lengthdir_x(length,image_angle), y+lengthdir_y(length,image_angle), obj_bulletEnemy)               
                     bullet.direction=image_angle;
                     bullet.speed=bulletspeed;
                     bullet.image_angle=bullet.direction;

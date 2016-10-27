@@ -3,7 +3,7 @@
   <spriteName>spr_50</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -56,7 +56,7 @@ instance_create(x,y,obj_explosion);
             <kind>1</kind>
             <string>with (other)
 {
-    hp -= 1;
+    hp -= 2;
 }
 
 instance_destroy();
@@ -66,7 +66,7 @@ instance_create(x,y,obj_explosion);
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj__Tank_Body">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -83,7 +83,12 @@ instance_create(x,y,obj_explosion);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj__Tank_Body.hp -= 1;
+            <string>//Tira hp da instancia específica
+with (other)
+{
+    hp -= 1;
+}
+
 instance_destroy();
 instance_create(x,y,obj_explosion);
 </string>
