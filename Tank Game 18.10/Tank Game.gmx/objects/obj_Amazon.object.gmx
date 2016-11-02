@@ -26,15 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>//Weapons
-instance_create(x,y,obj_Tank_Turret);
-instance_create(x,y,obj_lowcal);
+instance_create(x,y,obj_105mm);
+instance_create(x,y,obj_50_cal);
 
 // Speed
-playerspeed = 6;
+playerspeed = 10;
 
 // Health Bar
 
-hp = 100
+hp = 200
 </string>
           </argument>
         </arguments>

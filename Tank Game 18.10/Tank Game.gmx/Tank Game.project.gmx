@@ -19,11 +19,18 @@
     </sprites>
     <sprite>sprites\spr_explosion</sprite>
     <sprites name="Player">
-      <sprite>sprites\spr_Tank_Turret</sprite>
-      <sprite>sprites\spr_Tank_Body</sprite>
-      <sprite>sprites\spr_lowcal_fire</sprite>
-      <sprite>sprites\spr_lowcal</sprite>
-      <sprite>sprites\spr_Turret_Fire</sprite>
+      <sprite>sprites\spr_Flak_Cannon</sprite>
+      <sprite>sprites\spr_105mm</sprite>
+      <sprite>sprites\spr_Plasma_Cannon</sprite>
+      <sprite>sprites\spr_amazon</sprite>
+      <sprite>sprites\spr_atlantis</sprite>
+      <sprite>sprites\spr_savana</sprite>
+      <sprite>sprites\spr_50_cal</sprite>
+      <sprite>sprites\spr_Flame_Thrower</sprite>
+      <sprite>sprites\spr_Dual_Browning_30</sprite>
+      <sprite>sprites\spr_105mm_Fire</sprite>
+      <sprite>sprites\spr_Flak_Cannon_fire</sprite>
+      <sprite>sprites\spr_Plasma_Cannon_fire</sprite>
     </sprites>
     <sprite>sprites\spr_50</sprite>
     <sprite>sprites\spr_rocketL</sprite>
@@ -39,12 +46,26 @@
     <object>objects\obj_wall</object>
     <objects name="Player Tank">
       <object>objects\obj__Tank_Body</object>
-      <object>objects\obj_Tank_Turret</object>
-      <object>objects\obj_lowcal</object>
+      <object>objects\obj_Amazon</object>
+      <object>objects\obj_Atlantis</object>
+      <object>objects\obj_Savana</object>
+      <object>objects\obj_105mm</object>
+      <object>objects\obj_Plasma_Cannon</object>
+      <object>objects\obj_Flak_Cannon</object>
+      <object>objects\obj_50_cal</object>
+      <object>objects\obj_Flame_Thrower</object>
+      <object>objects\obj_Dual_Browning_30</object>
+      <object>objects\obj_Whirlwind_Rocket_Launcher</object>
+      <object>objects\obj_Railgun</object>
+      <object>objects\obj_128mm_Maus_Cannon</object>
     </objects>
-    <object>objects\obj_bullet</object>
+    <object>objects\obj_bullet_105mm</object>
+    <object>objects\obj_bullet_Flak_Cannon</object>
+    <object>objects\obj_bullet_Plasma_Cannon</object>
     <object>objects\obj_bulletEnemy</object>
-    <object>objects\obj_50</object>
+    <object>objects\obj_metralhadora_50</object>
+    <object>objects\obj_metralhadora_Flame_Thrower</object>
+    <object>objects\obj_metralhadora_Dual_Browning</object>
     <object>objects\obj_enemy50</object>
     <object>objects\obj_solid</object>
     <object>objects\obj_explosion</object>
@@ -58,6 +79,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room3</room>
+    <room>rooms\room2</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
