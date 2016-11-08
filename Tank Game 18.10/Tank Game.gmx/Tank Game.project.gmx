@@ -19,6 +19,7 @@
     </sprites>
     <sprite>sprites\spr_explosion</sprite>
     <sprites name="Player">
+<<<<<<< HEAD
       <sprite>sprites\spr_Flak_Cannon</sprite>
       <sprite>sprites\spr_105mm</sprite>
       <sprite>sprites\spr_Plasma_Cannon</sprite>
@@ -31,6 +32,14 @@
       <sprite>sprites\spr_105mm_Fire</sprite>
       <sprite>sprites\spr_Flak_Cannon_fire</sprite>
       <sprite>sprites\spr_Plasma_Cannon_fire</sprite>
+=======
+      <sprite>sprites\spr_Tank_Turret</sprite>
+      <sprite>sprites\spr_Tank_Body</sprite>
+      <sprite>sprites\spr_lowcal_fire</sprite>
+      <sprite>sprites\spr_lowcal</sprite>
+      <sprite>sprites\sprite18</sprite>
+      <sprite>sprites\spr_Turret_Fire</sprite>
+>>>>>>> origin/master
     </sprites>
     <sprite>sprites\spr_50</sprite>
     <sprite>sprites\spr_rocketL</sprite>
@@ -46,6 +55,7 @@
     <object>objects\obj_wall</object>
     <objects name="Player Tank">
       <object>objects\obj__Tank_Body</object>
+<<<<<<< HEAD
       <object>objects\obj_Amazon</object>
       <object>objects\obj_Atlantis</object>
       <object>objects\obj_Savana</object>
@@ -58,6 +68,11 @@
       <object>objects\obj_Whirlwind_Rocket_Launcher</object>
       <object>objects\obj_Railgun</object>
       <object>objects\obj_128mm_Maus_Cannon</object>
+=======
+      <object>objects\obj_Tank_Turret</object>
+      <object>objects\obj_lowcal</object>
+      <object>objects\obj_rocketL</object>
+>>>>>>> origin/master
     </objects>
     <object>objects\obj_bullet_105mm</object>
     <object>objects\obj_bullet_Flak_Cannon</object>
